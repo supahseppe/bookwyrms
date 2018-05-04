@@ -29,3 +29,7 @@ article.format-standard h6 {
   line-height: 1.41421em;
 }
 
+header .main-title a {
+  background-size: contain;
+}
+

@@ -2,27 +2,33 @@ article.format-standard {
     
     h1 {
         font-size: ms(4);
+        line-height: ms(5);
     }
 
     h2 {
         font-size: ms(3);
+        line-height: ms(4);
     }   
 
     h3 {
         font-size: ms(2);
+        line-height: ms(3);
     }
 
     h4 {
         font-size: ms(1);
+        line-height: ms(2);
     }
 
     h5 {
         font-size: 1.1rem;
         font-weight: bold;
+        line-height: ms(1);
     }
 
     h6 {
         font-weight: bold;
+        line-height: ms(1);
     }
 
 }

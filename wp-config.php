@@ -17,30 +17,7 @@
 if ( file_exists( dirname( __FILE__ ) . '/wp-config-local.php' ) ) {
 	include( dirname( __FILE__ ) . '/wp-config-local.php' );
 }
-/** The name of the database for WordPress. */
-if ( ! defined( 'DB_NAME' ) ) {
-	define( 'DB_NAME', '' );
-}
-/** MySQL database user name. */
-if ( ! defined( 'DB_USER' ) ) {
-	define( 'DB_USER', '' );
-}
-/** MySQL database password. */
-if ( ! defined( 'DB_PASSWORD' ) ) {
-	define( 'DB_PASSWORD', '' );
-}
-/** MySQL host name. */
-if ( ! defined( 'DB_HOST' ) ) {
-	define( 'DB_HOST', '127.0.0.1' );
-}
-/** WordPress localized language. Defaults to 'en_EN'. */
-if ( ! defined( 'WPLANG' ) ) {
-	define( 'WPLANG', '' );
-}
-/** WordPress debugging mode. */
-if ( ! defined( 'WP_DEBUG' ) ) {
-	define( 'WP_DEBUG', false );
-}
+
 /** WordPress memory limit. Default: 40M. Multi site: 64M. Default max.: 256M. */
 define( 'WP_MEMORY_LIMIT', '256M' );
 /** Database charset to use in creating database tables. */
@@ -62,7 +39,7 @@ define('DB_PASSWORD', 'GZHkVjr4');
 define('DB_HOST', 'mysql.bookwyrmspod.com');
 
 /** Database Charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8');
+define('DB_CHARSET', 'utf8mb4');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');

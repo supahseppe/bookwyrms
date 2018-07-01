@@ -145,7 +145,7 @@ function pod_info_settings_page() {
 												<img src="<?php echo $custom_page_dir;?>/docs.png" />
 											</div>
 											<h3>Documentation</h3>
-											<p>A documentation folder is included in your theme files from Themeforest. Simply look for the folder called <code>/documentation</code>. You can also view the online documneation here: <a href="http://themestation.co/documentation/podcaster/">themestation.co/documentation/podcaster/</a></p>
+											<p>A documentation folder is included in your theme files from Themeforest. Simply look for the folder called <code>/documentation</code>. You can also view the online documneation here: <a href="https://themestation.co/documentation/podcaster/">themestation.co/documentation/podcaster/</a></p>
 										</div>
 									</div>
 									<?php
@@ -158,7 +158,7 @@ function pod_info_settings_page() {
 												<img src="<?php echo $custom_page_dir;?>/support-banner.jpg" />
 											</div>
 											<h3>New Support System</h3>
-											<p>Sign-up for the new ticket stytem and get tailor-made support. We have also adjusted our support terms to fit the new terms by Envato. <a href="http://themestation.co/support">Click here</a> to find out more.  </p>
+											<p>Sign-up for the new ticket stytem and get tailor-made support. We have also adjusted our support terms to fit the new terms by Envato. <a href="https://themestation.co/support">Click here</a> to find out more.  </p>
 										</div>
 									</div>
 									<?php
@@ -174,11 +174,11 @@ function pod_info_settings_page() {
 									<div class="feature-section two-col">
 										<div class="col" style="margin-top:0">
 											<h3>Rate</h3>
-											<p>Support Podcaster and give a five star rating! Click <a href="http://themeforest.net/item/podcaster-multimedia-wordpress-theme/6804946?ref=Themestation">here</a> to rate.</p>
+											<p>Support Podcaster and give a five star rating! Click <a href="https://themeforest.net/item/podcaster-multimedia-wordpress-theme/6804946?ref=Themestation">here</a> to rate.</p>
 										</div>
 										<div class="col" style="margin-top:0">
 											<h3>Showcase</h3>
-											<p>Allow us to feature your website created with Podcaster. Submit your site <a href="http://www.themestation.co/showcase">here</a>.</p>
+											<p>Allow us to feature your website created with Podcaster. Submit your site <a href="https://www.themestation.co/showcase">here</a>.</p>
 										</div>
 									</div>
 
@@ -787,7 +787,7 @@ function pod_info_settings_page() {
 											<li class="first"><h2>1.3.1</h2><span class="date">(16th June 2014)</span>
 												<ul>
 													<li><span class="label fix minor">Minor Fix</span> Buttons in breakpoints</li>
-													<li><span class="label update">Update</span> Podcasting RSS Feed function can now be found in the Theme Station Podcasting Feed Plugin. Download at http://www.themestation.co</li>
+													<li><span class="label update">Update</span> Podcasting RSS Feed function can now be found in the Theme Station Podcasting Feed Plugin. Download at https://www.themestation.co</li>
 												</ul>
 											</li>
 											<li class="first"><h2>1.3</h2><span class="date">(30th April 2014)</span>
@@ -833,7 +833,7 @@ function pod_info_settings_page() {
 						}
 						?>
 					</div><!-- .sub-tabs -->
-					<p><?php echo $theme_data['Name'] ?> theme by <a href="http://themestation.co/">themestation.co</a></p>
+					<p><?php echo $theme_data['Name'] ?> theme by <a href="https://themestation.co/">themestation.co</a></p>
 					
 				</div>
 			</div>

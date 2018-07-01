@@ -1,7 +1,7 @@
 <?php
     /**
      * ReduxFramework Config File (Podcaster)
-     * For full documentation, please visit: http://docs.reduxframework.com/
+     * For full documentation, please visit: https://docs.reduxframework.com/
      */
 
     if ( ! class_exists( 'Redux' ) ) {
@@ -156,7 +156,7 @@
         'page_priority'        => null,
         // Order where the menu appears in the admin area. If there is any conflict, something will not show. Warning.
         'page_parent'          => 'themes.php',
-        // For a full list of options, visit: http://codex.wordpress.org/Function_Reference/add_submenu_page#Parameters
+        // For a full list of options, visit: https://codex.wordpress.org/Function_Reference/add_submenu_page#Parameters
         'page_permissions'     => 'manage_options',
         // Permissions needed to access the options panel.
         //'menu_icon'            => '',
@@ -227,7 +227,7 @@
 
     // ADMIN BAR LINKS -> Setup custom links in the admin bar menu as external items.
     $args['share_icons']['twitter'] = array(
-        'link' => 'http://twitter.com/themestationco',
+        'link' => 'https://twitter.com/themestationco',
         'title' => 'Follow on Twitter', 
         'img' => $theme_options_img . '/social/Twitter.png'
     );
@@ -1016,7 +1016,7 @@
                 'title' => __('Link (Optional)', 'thstlang'),
                 'subtitle' => __('Do you want your text to link somewhere?', 'thstlang'),
                 'desc' => __('Enter the URL you would like to link your text to.', 'thstlang'),
-                'placeholder' => 'http://www.example.com',
+                'placeholder' => 'https://www.example.com',
                 'default' => '',
                 'validate' => 'url',
             ),
@@ -1406,7 +1406,7 @@
                 'subtitle' => __('Would you like to display a button linking to your podcast archive?', 'thstlang'),
                 'desc' => __('Paste the url of your podcast archive here', 'thstlang'),
                 'validate' => 'url',
-                'placeholder' => 'http://www.example.com/podcast-archive-page',
+                'placeholder' => 'https://www.example.com/podcast-archive-page',
             ),
             array(
             	'id' => 'pod-excerpts-type',
@@ -2493,7 +2493,7 @@
                 'subtitle' => __('Would you like to display a social icon?', 'thstlang'),
                 'desc' => __('Paste the url of your profile here.', 'thstlang'),
                 'validate' => 'url',
-                'placeholder' => 'http://www.example.com/',
+                'placeholder' => 'https://www.example.com/',
             ),
             array(
                 'id' => 'pod-facebook',
@@ -2502,7 +2502,7 @@
                 'subtitle' => __('Would you like to display a social icon?', 'thstlang'),
                 'desc' => __('Paste the url of your profile here.', 'thstlang'),
                 'validate' => 'url',
-                'placeholder' => 'http://www.example.com/',
+                'placeholder' => 'https://www.example.com/',
             ),
             array(
                 'id' => 'pod-twitter',
@@ -2511,7 +2511,7 @@
                 'subtitle' => __('Would you like to display a social icon?', 'thstlang'),
                 'desc' => __('Paste the url of your profile here.', 'thstlang'),
                 'validate' => 'url',
-                'placeholder' => 'http://www.example.com/',
+                'placeholder' => 'https://www.example.com/',
             ),
             array(
                 'id' => 'pod-google',
@@ -2520,7 +2520,7 @@
                 'subtitle' => __('Would you like to display a social icon?', 'thstlang'),
                 'desc' => __('Paste the url of your profile here.', 'thstlang'),
                 'validate' => 'url',
-                'placeholder' => 'http://www.example.com/',
+                'placeholder' => 'https://www.example.com/',
             ),
             array(
                 'id' => 'pod-instagram',
@@ -2529,7 +2529,7 @@
                 'subtitle' => __('Would you like to display a social icon?', 'thstlang'),
                 'desc' => __('Paste the url of your profile here.', 'thstlang'),
                 'validate' => 'url',
-                'placeholder' => 'http://www.example.com/',
+                'placeholder' => 'https://www.example.com/',
             ),
             array(
                 'id' => 'pod-snapchat',
@@ -2538,7 +2538,7 @@
                 'subtitle' => __('Would you like to display a social icon?', 'thstlang'),
                 'desc' => __('Paste the url of your profile here.', 'thstlang'),
                 'validate' => 'url',
-                'placeholder' => 'http://www.example.com/',
+                'placeholder' => 'https://www.example.com/',
             ),
             array(
                 'id' => 'pod-itunes',
@@ -2547,7 +2547,7 @@
                 'subtitle' => __('Would you like to display a social icon?', 'thstlang'),
                 'desc' => __('Paste the url of your profile here.', 'thstlang'),
                 'validate' => 'url',
-                'placeholder' => 'http://www.example.com/',
+                'placeholder' => 'https://www.example.com/',
             ),
             array(
                 'id' => 'pod-soundcloud',
@@ -2556,7 +2556,7 @@
                 'subtitle' => __('Would you like to display a social icon?', 'thstlang'),
                 'desc' => __('Paste the url of your profile here.', 'thstlang'),
                 'validate' => 'url',
-                'placeholder' => 'http://www.example.com/',
+                'placeholder' => 'https://www.example.com/',
             ),
             array(
                 'id' => 'pod-mixcloud',
@@ -2565,7 +2565,7 @@
                 'subtitle' => __('Would you like to display a social icon?', 'thstlang'),
                 'desc' => __('Paste the url of your profile here.', 'thstlang'),
                 'validate' => 'url',
-                'placeholder' => 'http://www.example.com/',
+                'placeholder' => 'https://www.example.com/',
             ),
             array(
                 'id' => 'pod-spotify',
@@ -2574,7 +2574,7 @@
                 'subtitle' => __('Would you like to display a social icon?', 'thstlang'),
                 'desc' => __('Paste the url of your profile here.', 'thstlang'),
                 'validate' => 'url',
-                'placeholder' => 'http://www.example.com/',
+                'placeholder' => 'https://www.example.com/',
             ),
             array(
                 'id' => 'pod-tumblr',
@@ -2583,7 +2583,7 @@
                 'subtitle' => __('Would you like to display a social icon?', 'thstlang'),
                 'desc' => __('Paste the url of your profile here.', 'thstlang'),
                 'validate' => 'url',
-                'placeholder' => 'http://www.example.com/',
+                'placeholder' => 'https://www.example.com/',
             ),
             array(
                 'id' => 'pod-pinterest',
@@ -2592,7 +2592,7 @@
                 'subtitle' => __('Would you like to display a social icon?', 'thstlang'),
                 'desc' => __('Paste the url of your profile here.', 'thstlang'),
                 'validate' => 'url',
-                'placeholder' => 'http://www.example.com/',
+                'placeholder' => 'https://www.example.com/',
             ),
             array(
                 'id' => 'pod-flickr',
@@ -2601,7 +2601,7 @@
                 'subtitle' => __('Would you like to display a social icon?', 'thstlang'),
                 'desc' => __('Paste the url of your profile here.', 'thstlang'),
                 'validate' => 'url',
-                'placeholder' => 'http://www.example.com/',
+                'placeholder' => 'https://www.example.com/',
             ),
             array(
                 'id' => 'pod-youtube',
@@ -2610,7 +2610,7 @@
                 'subtitle' => __('Would you like to display a social icon?', 'thstlang'),
                 'desc' => __('Paste the url of your profile here.', 'thstlang'),
                 'validate' => 'url',
-                'placeholder' => 'http://www.example.com/',
+                'placeholder' => 'https://www.example.com/',
             ),
             array(
                 'id' => 'pod-vimeo',
@@ -2619,7 +2619,7 @@
                 'subtitle' => __('Would you like to display a social icon?', 'thstlang'),
                 'desc' => __('Paste the url of your profile here.', 'thstlang'),
                 'validate' => 'url',
-                'placeholder' => 'http://www.example.com/',
+                'placeholder' => 'https://www.example.com/',
             ),
             array(
                 'id' => 'pod-vine',
@@ -2628,7 +2628,7 @@
                 'subtitle' => __('Would you like to display a social icon?', 'thstlang'),
                 'desc' => __('Paste the url of your profile here.', 'thstlang'),
                 'validate' => 'url',
-                'placeholder' => 'http://www.example.com/',
+                'placeholder' => 'https://www.example.com/',
             ),
             array(
                 'id' => 'pod-skype',
@@ -2637,7 +2637,7 @@
                 'subtitle' => __('Would you like to display a social icon?', 'thstlang'),
                 'desc' => __('Paste the url of your profile here.', 'thstlang'),
                 'validate' => 'url',
-                'placeholder' => 'http://www.example.com/',
+                'placeholder' => 'https://www.example.com/',
             ),
             array(
                 'id' => 'pod-dribbble',
@@ -2646,7 +2646,7 @@
                 'subtitle' => __('Would you like to display a social icon?', 'thstlang'),
                 'desc' => __('Paste the url of your profile here.', 'thstlang'),
                 'validate' => 'url',
-                'placeholder' => 'http://www.example.com/',
+                'placeholder' => 'https://www.example.com/',
             ),
             array(
                 'id' => 'pod-weibo',
@@ -2655,7 +2655,7 @@
                 'subtitle' => __('Would you like to display a social icon?', 'thstlang'),
                 'desc' => __('Paste the url of your profile here.', 'thstlang'),
                 'validate' => 'url',
-                'placeholder' => 'http://www.example.com/',
+                'placeholder' => 'https://www.example.com/',
             ),
             array(
                 'id' => 'pod-foursquare',
@@ -2664,7 +2664,7 @@
                 'subtitle' => __('Would you like to display a social icon?', 'thstlang'),
                 'desc' => __('Paste the url of your profile here.', 'thstlang'),
                 'validate' => 'url',
-                'placeholder' => 'http://www.example.com/',
+                'placeholder' => 'https://www.example.com/',
             ),
             array(
                 'id' => 'pod-github',
@@ -2673,7 +2673,7 @@
                 'subtitle' => __('Would you like to display a social icon?', 'thstlang'),
                 'desc' => __('Paste the url of your profile here.', 'thstlang'),
                 'validate' => 'url',
-                'placeholder' => 'http://www.example.com/',
+                'placeholder' => 'https://www.example.com/',
             ),
             array(
                 'id' => 'pod-xing',
@@ -2682,7 +2682,7 @@
                 'subtitle' => __('Would you like to display a social icon?', 'thstlang'),
                 'desc' => __('Paste the url of your profile here.', 'thstlang'),
                 'validate' => 'url',
-                'placeholder' => 'http://www.example.com/',
+                'placeholder' => 'https://www.example.com/',
             ),
             array(
                 'id' => 'pod-linkedin',
@@ -2691,7 +2691,7 @@
                 'subtitle' => __('Would you like to display a social icon?', 'thstlang'),
                 'desc' => __('Paste the url of your profile here.', 'thstlang'),
                 'validate' => 'url',
-                'placeholder' => 'http://www.example.com/',
+                'placeholder' => 'https://www.example.com/',
             ),
         )
     ) );

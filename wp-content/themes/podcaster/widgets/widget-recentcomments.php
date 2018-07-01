@@ -3,11 +3,11 @@
 /*-----------------------------------------------------------------------------------
 
 	Plugin Name: Recent Comments Widget
-	Plugin URI: http://www.themestation.net
+	Plugin URI: https://www.themestation.net
 	Description: Displays recent comments posts from a standard post type.
 	Version: 1.0
 	Author: David Martin
-	Author URI: http://www.themestation.net
+	Author URI: https://www.themestation.net
 
 -----------------------------------------------------------------------------------*/
 

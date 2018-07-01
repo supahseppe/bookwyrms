@@ -4,10 +4,10 @@
  *
  * @package Podcaster
  * @since 1.0
- * @author Theme Station : http://www.themestation.co
+ * @author Theme Station : https://www.themestation.co
  * @copyright Copyright (c) 2013, Theme Station
- * @link http://www.themestation.co
- * @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ * @link https://www.themestation.co
+ * @license https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
 
 get_header(); 

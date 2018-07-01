@@ -245,7 +245,7 @@ window.CMB = (function(window, document, $, undefined){
 		return false;
 	};
 
-	// src: http://www.benalman.com/projects/jquery-replacetext-plugin/
+	// src: https://www.benalman.com/projects/jquery-replacetext-plugin/
 	$.fn.replaceText = function(b, a, c) {
 		return this.each(function() {
 			var f = this.firstChild, g, e, d = [];
@@ -746,7 +746,7 @@ window.CMB = (function(window, document, $, undefined){
 			var oembed_width = $obj.width();
 			var child_el = $(':first-child', embed_container);
 
-			// http://www.youtube.com/watch?v=dGG7aru2S6U
+			// https://www.youtube.com/watch?v=dGG7aru2S6U
 			cmb.log( 'oembed_url', oembed_url, field_id );
 			oembed_width = ( embed_container.length && child_el.length ) ? child_el.width() : $obj.width();
 

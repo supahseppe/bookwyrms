@@ -1,7 +1,7 @@
 #Batch Webfont How-To and FAQ
 
 ###This guide is not the only way to incorporate the Batch webfont into your work. I am far from classing myself as a developer. It is just a guide to help you understand more how the web-font is constructed and how you could implement it. 
-####If you get stuck at all, or require further details the quickest way to contact me is via my [twitter](http://twitter.com/sdmix).
+####If you get stuck at all, or require further details the quickest way to contact me is via my [twitter](https://twitter.com/sdmix).
 
 #####Font Face Setup
 

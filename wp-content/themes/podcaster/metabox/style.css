@@ -339,11 +339,11 @@ div.time-picker li.selected {
 /**
  * jQuery UI CSS Framework 1.8.16
  *
- * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Copyright 2011, AUTHORS.txt (https://jqueryui.com/about)
  * Dual licensed under the MIT or GPL Version 2 licenses.
- * http://jquery.org/license
+ * https://jquery.org/license
  *
- * http://docs.jquery.com/UI/Theming/API
+ * https://docs.jquery.com/UI/Theming/API
  */
  .cmb_element .ui-helper-hidden { display: none; }
  .cmb_element .ui-helper-hidden-accessible { position: absolute !important; clip: rect(1px 1px 1px 1px); clip: rect(1px,1px,1px,1px); }

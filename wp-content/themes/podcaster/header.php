@@ -7,8 +7,8 @@
  * @since 1.0
  * @author Theme Station
  * @copyright Copyright (c) 2014, Theme Station
- * @link http://www.themestation.co
- * @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ * @link https://www.themestation.co
+ * @license https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
 
 $pod_social_color = pod_theme_option('pod-social-color');
@@ -22,7 +22,7 @@ $pod_social_color = pod_theme_option('pod-social-color');
     <!-- Mobile Specific -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!--[if lt IE 9]>
-        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+        <script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     <![endif]-->
     
     <!-- Title Tag -->

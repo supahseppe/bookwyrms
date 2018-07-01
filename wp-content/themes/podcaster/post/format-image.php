@@ -3,10 +3,10 @@
  * This file is used for your image post format.
  * @package Podcaster
  * @since 1.0
- * @author Theme Station : http://www.themestation.net
+ * @author Theme Station : https://www.themestation.net
  * @copyright Copyright (c) 2014, Theme Station
- * @link http://www.themestation.net
- * @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ * @link https://www.themestation.net
+ * @license https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
  
  $thump_cap = get_post(get_post_thumbnail_id())->post_excerpt; ?>

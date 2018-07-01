@@ -276,7 +276,7 @@ class cmb_Meta_Box_field {
 			'radio',
 			'title',
 			'group',
-			// @todo Ajax load wp_editor: http://wordpress.stackexchange.com/questions/51776/how-to-load-wp-editor-through-ajax-jquery
+			// @todo Ajax load wp_editor: https://wordpress.stackexchange.com/questions/51776/how-to-load-wp-editor-through-ajax-jquery
 			'wysiwyg',
 			'checkbox',
 			'radio_inline',

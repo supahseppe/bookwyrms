@@ -2354,7 +2354,7 @@ msgid "Podcaster"
 msgstr ""
 
 #. Theme URI of the plugin/theme
-msgid "http://themeforest.net/user/themestation/portfolio"
+msgid "https://themeforest.net/user/themestation/portfolio"
 msgstr ""
 
 #. Description of the plugin/theme
@@ -2362,9 +2362,9 @@ msgid "Premium WordPress Theme By Theme Station"
 msgstr ""
 
 #. Author of the plugin/theme
-msgid "http://www.themestation.co"
+msgid "https://www.themestation.co"
 msgstr ""
 
 #. Author URI of the plugin/theme
-msgid "http://themeforest.net/user/themestation/"
+msgid "https://themeforest.net/user/themestation/"
 msgstr ""

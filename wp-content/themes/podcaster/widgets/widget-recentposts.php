@@ -3,11 +3,11 @@
 /*-----------------------------------------------------------------------------------
 
 	Plugin Name: Recent Posts Widget
-	Plugin URI: http://www.themestation.co
+	Plugin URI: https://www.themestation.co
 	Description: Displays highlighted posts (by category)
 	Version: 1.0
 	Author: Theme Station
-	Author URI: http://www.themestation.co
+	Author URI: https://www.themestation.co
 
 -----------------------------------------------------------------------------------*/
 

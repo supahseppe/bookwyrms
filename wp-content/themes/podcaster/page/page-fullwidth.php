@@ -4,10 +4,10 @@
  * This file is used to display your full width pages.
  * @package Podcaster
  * @since 1.0
- * @author Theme Station : http://www.themestation.net
+ * @author Theme Station : https://www.themestation.net
  * @copyright Copyright (c) 2014, Theme Station
- * @link http://www.themestation.net
- * @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ * @link https://www.themestation.net
+ * @license https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
 
 /*
